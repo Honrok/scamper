@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome-page{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    height: 100vh;
+}
+
+#anim{
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+}
